@@ -17,6 +17,7 @@ public class HelloWorldController {
     public String getData() {
 		System.out.println("HelloWorldController ");
 		return "home";
+		//this first reauset
 
 	}
 	@ModelAttribute(value= "countrieslist")
